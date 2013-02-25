@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" type="text/css" href="bus.css" />
+  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
+  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/zepto/1.0rc1/zepto.min.js"></script>
+  <script type="text/javascript" src="moment.min.js"></script>
+  <p id="clock"></p>
+  <div id="content">Loading bus departures...</div>
+  <p class="fineprint">Made by <a href="http://danieljanus.pl/">Daniel Janus</a>.
+    Uses live data by <a href="http://tfl.gov.uk">Transport for London</a> (TfL).
+    This site is not affiliated with TfL in any way. 
+    Neither Daniel Janus nor TfL hold any responsibility for the accuracy of data presented here.
+    <br><br>
+    This site shows live bus departures from Bywater Place and Pageant Steps stops by default.
+    To customize for your area, see <a href="http://www.tfl.gov.uk/assets/downloads/corporate/bus-stop-codes.pdf">TfL bus stop codes list</a> and append comma-separated list of desired bus stop codes, prefixed by a question mark, to the URL of this page. <br><br>
+    Example for a few stops in Elephant &amp; Castle: <a id="exampleurl">http://danieljanus.pl/bus/?47096,49429,49684</a>
+  </p>
+  <script type="text/javascript" src="bus.js"></script>
+</html>
